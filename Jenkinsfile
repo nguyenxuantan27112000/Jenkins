@@ -6,6 +6,7 @@ pipeline {
         dockerImage = ''
     }
     
+    
     agent any
     stages {
         stage('checkout') {
